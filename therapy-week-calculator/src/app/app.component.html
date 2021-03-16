@@ -30,9 +30,9 @@
     </div>
 
     <div class="row element">
-        <div class="col">
-            <div *ngIf="startWeek > 0 && currentWeek > 0">
-                <div class="subtitle alert alert-secondary">Aktuelle Woche der Therapie: {{result}}</div>
+        <div class="col d-flex justify-content-center">
+            <div *ngIf="startWeek > 0 && currentWeek > 0" class="calculation-result">
+                <div class="subtitle alert alert-secondary">Berechnete Woche: {{result}}</div>
                 <br/>
                 KW Beginn Therapie: {{startWeek}}<br/>
                 KW Aktuell: {{currentWeek}}
