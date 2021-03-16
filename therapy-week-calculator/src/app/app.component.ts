@@ -2,6 +2,18 @@ import { Component } from '@angular/core';
 import * as moment from 'moment';
 import {FormControl} from '@angular/forms';
 
+export const MY_FORMATS = {
+    parse: {
+        dateInput: 'LL',
+    },
+    display: {
+        dateInput: 'DD.MM.YYYY',
+        monthYearLabel: 'YYYY',
+        dateA11yLabel: 'LL',
+        monthYearA11yLabel: 'YYYY',
+    },
+};
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
