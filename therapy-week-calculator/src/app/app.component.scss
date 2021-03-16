@@ -1,3 +1,18 @@
-html {
-  text-align: center;
+.navbar {
+  margin-bottom: 1rem;
+
+  .navbar-brand {
+    width: 100%;
+    margin-right: 0;
+    padding: 1rem 0;
+  }
+}
+
+.element {
+  margin-top: 2rem;
+
+  .subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+  }
 }
