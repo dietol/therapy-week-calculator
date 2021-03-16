@@ -4,7 +4,7 @@ import {FormControl} from '@angular/forms';
 
 export const MY_FORMATS = {
     parse: {
-        dateInput: 'LL',
+        dateInput: 'DD.MM.YYYY',
     },
     display: {
         dateInput: 'DD.MM.YYYY',
